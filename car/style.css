@@ -1,0 +1,206 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.home .content{
+    background-image: url("background.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.home .header .logo{
+    padding-left: 5%;
+}
+.home .header .menu a{
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
+.home .header .search{
+    padding-right: 5%;
+    color: white;
+}
+.home .content .title{
+    text-align: center;
+}
+.home .content .title h1{
+    font-size: 50px;
+    margin-top: 0%;
+    color: white;
+}
+.home .content .title span{
+    color: yellow;
+}
+.home .content .button{
+    display: flex;
+    margin-left: 42%;
+}
+.home .content .title button{
+    border: 1px solid white;
+    padding: 1% 2%;
+    border-radius: 48%;
+    box-shadow:5px 5px 5px 5px lightskyblue;
+    color: rgb(43, 43, 35);
+}
+.home .content .title p{
+    margin-left: 5%;
+    color: white;
+}
+.home .content .image{
+    display: flex;
+}
+.home .content .image img{
+    margin-left: 13%;
+    margin-top: 2%;
+}
+.home .content .car-about{
+    color: white;
+    display: flex;
+}
+.home .content .car-about p{
+    margin-right: 1%;
+    margin-left: 20%;
+}
+.home .content .rating{
+    color: white;
+}
+.home .content .rating p{
+    margin-left: 220px;
+}
+.aboutUs{
+    background-color: #E9E9E9;
+}
+.aboutUs .header h1{
+    width: 100%;
+    color: rgb(88, 88, 216);
+    text-align: center;
+    font-size: 60px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.aboutUs .detail{
+    display: flex;
+}
+.aboutUs .image img{
+    width:90%;
+    height:500px;
+}
+.aboutUs .view{
+    padding-top: 5%;
+}
+.aboutUs .view h2{
+    font-size:30px;
+    color: rgb(88, 88, 216);
+} 
+.aboutUs .view .clients{
+    display: flex;
+}
+.aboutUs .view .counter{
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+.aboutUs .view .clients div{
+    margin-left: 10%;
+    text-align: center;
+}
+.aboutUs .view button{
+    margin-top: 5%;
+    padding:2% 5%;
+    border: 1px solid white;
+    border-radius: 48%;
+    background-color: rgb(50, 50, 147);
+    color: white;
+    box-shadow: 5px 5px 1px 1px rgb(89, 89, 141);
+}
+.model .header h1{
+    width: 100%;
+    color: rgb(13, 102, 150);
+    text-align: center;
+    font-size: 60px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.model .detail{
+    display: flex;
+}
+.model .card{
+    width: 30%;
+    border:1px solid black;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    box-shadow:8px 8px 1px 1px rgb(83, 127, 163);
+    margin-bottom: 5%;
+}
+.model .card:hover{
+    transform: rotateY(180deg);
+}
+.model .card img{
+    width:100%;
+}
+.contact{
+    background-image: url("contactbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.contact .header h1{
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+.contact .show{
+    display: flex;
+    padding-bottom: 5%;
+} 
+.contact .show .info{
+    width: 50%;
+    padding-left:10%;
+}
+.contact .show .info h1{
+    font-size: 40px;
+}
+.contact .show .info i{
+    padding-right: 3%;
+    font-size: 20px;
+}
+.contact .show .info input{
+    padding: 1%;
+}
+.contact .show .info button{
+    padding: 1%;
+}
+.contact .show .info .icon i{
+    padding-top: 3%;
+    font-size: 30px;
+}
+.contact .show .form{
+    width: 50%;
+    padding-top: 1%;
+}
+.contact .show .form input{
+    width: 80%;
+    background: none;
+    border-bottom:2px solid white;
+    margin-top: 3%;
+    padding: 1%;
+}
+.contact .show .form input::placeholder{
+    color: white;
+}
+.contact .show .form button{
+    margin-top: 4%;
+    padding: 1% 5%;
+}

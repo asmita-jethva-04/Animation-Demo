@@ -1,0 +1,74 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+    font-family:fantasy;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    padding-left: 50px;
+}
+.menu a{
+    text-decoration: none;
+    color: #BC9B59;
+    margin-right: 60px;
+}
+.menu a:last-child{
+    background-color:white;
+    border: 1px solid white;
+    padding:5px 9px;
+    box-shadow:4px 4px 1px 1px #BC9B59;
+}
+.menu a:hover{
+    background-color:white;
+    border: 1px solid white;
+    padding:5px 9px;
+    box-shadow:4px 4px 1px 1px #BC9B59;
+}
+.container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+}
+.content {
+    width: 50%; 
+}
+.text h1{
+    color: #BC9B59;
+    padding-left:60px;
+    font-size: 60px;
+    line-height:70px;
+    word-spacing: 10px;
+}
+.text button{
+    margin-left: 60px;
+    padding:7px 10px;
+    color: #BC9B59;
+    font-weight: bolder;
+    font-size:15px;
+    box-shadow:4px 4px 1px 1px #BC9B59;
+}
+.content .image img:hover{
+    animation: shakeX 2s infinite; 
+}
+ .text .animated .image img{
+    width:50%;
+    display: flex;
+}
+.animated{
+    width: 50%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+.animated img {
+    width: 80%;
+}
+
